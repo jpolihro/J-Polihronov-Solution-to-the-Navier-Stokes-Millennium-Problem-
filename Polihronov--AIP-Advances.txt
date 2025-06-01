@@ -1,3 +1,4 @@
+Supplemental Documents to Well-Posed Self-Similarity in Incompressible Standard Flows - A Proposed Solution to the Navier–Stokes Millennium Problem Part 1 and 2
 
 \title{Incompressible flows: Relative scale invariance \\ and isobaric polynomial fields}
 \author{J. Polihronov}
