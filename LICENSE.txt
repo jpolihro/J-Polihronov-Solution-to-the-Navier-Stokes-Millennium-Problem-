@@ -1,0 +1,4 @@
+
+J. Polihronov's Proposed Solution to the Navier-Stokes Millennium Problem
+## License
+This work is licensed under the [CC BY 4.0](LICENSE) license.
