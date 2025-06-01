@@ -1,3 +1,5 @@
+Supplemental Documents to Well-Posed Self-Similarity in Incompressible Standard Flows - A Proposed Solution to the Navier–Stokes Millennium Problem Part 4
+
 Title: Solution to the Navier-Stokes Millennium Problem
 Author: J. Polihronov
 arXiv: https://arxiv.org/abs/2504.21000
