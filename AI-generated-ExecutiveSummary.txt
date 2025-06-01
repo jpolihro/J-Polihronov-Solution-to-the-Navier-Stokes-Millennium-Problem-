@@ -4,6 +4,7 @@ Title: Solution to the Navier-Stokes Millennium Problem
 Author: J. Polihronov
 arXiv: https://arxiv.org/abs/2504.21000
 DOI: https://doi.org/10.48550/arXiv.2504.21000
+https://zenodo.org/records/15535675
 
 \title{\textbf{Formal Review: Resolution of the Navier--Stokes Millennium Problem by J. Polihronov}}
 \author{}
@@ -71,3 +72,4 @@ Title: Solution to the Navier-Stokes Millennium Problem
 Author: J. Polihronov
 arXiv: https://arxiv.org/abs/2504.21000
 DOI: https://doi.org/10.48550/arXiv.2504.21000
+https://zenodo.org/records/15535675
