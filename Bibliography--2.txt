@@ -1,0 +1,28 @@
+\begin{thebibliography}{21}
+
+\bibitem{Cla06}  C. L. Fefferman, {\em Existence and smoothness of the Navier-Stokes Equation,} {\em The Millennium Prize Problems,} Clay Math. Inst., Cambridge, MA, (2006), pp. 57-67.
+\bibitem{Pol22}  J. Polihronov, {\em Incompressible Flows: Relative Invariance and Isobaric Polynomial Fields,} AIP Advances, vol. 12, (2022), p. 085022.
+\bibitem{Bou99}  C. L. Bouton, {\em Invariants of the General Linear Differential Equation and Their Relation to the Theory of Continuous Groups,} Am. J. Math. vol. 21, (1899), p. 25.
+\bibitem{Llo81}  S. P. Lloyd, {\em The Infinitesimal Group of the Navier-Stokes Equations,} Acta Mech., vol. 38, (1981), p. 85.
+\bibitem{Erc15}  A. Ercan and M. L. Kavvas, {\em Self-similarity in incompressible Navier-Stokes equations,} Chaos, vol. 25, (2015), p. 123126.
+\bibitem{Tao08}  T. Tao, {\em Global behaviour of nonlinear dispersive and wave equations,} Curr. Dev. Math. 2006, (2008), p. 255.
+\bibitem{Ler34}  J. Leray, {\em Sur le mouvement d'un liquide visqueux emplissant l'espace,} Acta Math., vol. 63, (1934), p. 193.
+\bibitem{Can96}  M. Cannone and F. Planchon, {\em Self-similar solutions for Navier-Stokes equations in ${\rm I\!R}^3$,} vol. 21, (1996), p. 179.
+\bibitem{Bat67}  G. K. Batchelor, An Introduction to Fluid Dynamics (Cambridge University Press, 1967)
+\bibitem{Tay37}	 G. I. Taylor and A. E. Green, {\em Mechanism of the Production of Small Eddies from Large Ones,} vol. 158, (1937), pp. 499-521.
+\bibitem{Wik25}  Wikipedia, {\em Navier--Stokes Existence and Smoothness}, 2025.
+\bibitem{Tem77}  R. Temam, {\em Navier--Stokes Equations: Theory and Numerical Analysis, ch. III}, North-Holland, 1977.
+\bibitem{Fri95}  U. Frisch, {\em Turbulence: The Legacy of A. N. Kolmogorov, ch.2 and Appendix A}, Cambridge University Press, 1995.
+\bibitem{Foi88}  P. Constantin and C. Foias, {\em Navier--Stokes Equations}, University of Chicago Press, 1988.
+\bibitem{Ber02}  A. Majda and A. Bertozzi, {\em Vorticity and Incompressible Flow}, Cambridge University Press, 2002.
+\bibitem{BKM}    J. T. Beale, T. Kato and A. Majda, {\em Remarks on the breakdown of smooth solutions for the 3-D Euler equations,} Comm. Math. Phys., vol. 94, (1984), p. 61.
+\bibitem{Kat64}  T.~Kato and H.~Fujita,\emph{On the Navier–Stokes initial value problem. I}, Arch.\ Rational Mech.\ Anal.\ \textbf{16} (1964), 269–315.
+\bibitem{Tao14}  T.~Tao, \emph{Finite time blowup for an averaged three-dimensional Navier–Stokes equation}, J.\ Amer.\ Math.\ Soc.\ \textbf{29} (2016), 601–674.
+
+
+
+
+
+
+
+\end{thebibliography}

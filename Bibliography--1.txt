@@ -1,0 +1,104 @@
+@ARTICLE{Bou99,
+   author       = "C. L. Bouton",
+   year         = "1899",
+   journal      =  "Am. J. Math.",
+   volume       = "21",
+   pages        = "25",
+}
+@ARTICLE{BKM,
+   author       = "J. T. Beale and T. Kato and A. Majda",
+   journal      = "Comm. Math. Phys.",
+   volume       = "94", 
+   pages        = "61",
+   year         = "1984",
+}
+@ARTICLE{Ler34,
+   author       = "J. Leray",
+   journal      = "Acta Math.",
+   volume       = "63", 
+   pages        = "193",
+   year         = "1934",
+}
+@ARTICLE{Can96,
+   author       = "M. Cannone and F. Planchon",
+   journal      = "Comm. PDE",
+   volume       = "21", 
+   pages        = "179",
+   year         = "1996",
+}
+@MISC{Brad18, 
+
+   author       = "Z. Bradshaw and T.-P. Tsai",
+   title        = "Self-similar solutions to the {N}avier-{S}tokes equations: a survey of recent results", 
+   howpublished = "e-print arXiv:1802.00038 [math.AP]", 
+   month        = "", 
+   year         = "2018", 
+   note         = "",
+}
+@ARTICLE{Tao08,
+   author       = "T. Tao",
+   journal      = "Curr. Dev. Math. 2006",
+   volume       = "", 
+   pages        = "255",
+   year         = "2008",
+}
+@BOOK{Wie19,
+   author       = {E. Wiedemann},
+   year         = 2019,
+   title        = {Lecture Notes: Navier-Stokes Equations},
+   publisher    = {Universitat Ulm}
+}
+@ARTICLE{Erc15,
+   author       = "A. Ercan and M. L. Kavvas",
+   journal      = "Chaos",
+   volume       = "25", 
+   pages        = "123126",
+   year         = "2015",
+}
+@ARTICLE{Llo81,
+   author       = "S. P. Lloyd",
+   journal      = "Acta Mech.",
+   volume       = "38", 
+   pages        = "85",
+   year         = "1981",
+}
+@BOOK{Map19,
+   author       = {},
+   title        = {Maple 2019},
+   publisher    = {Maplesoft, a division of Waterloo Maple Inc., Waterloo, Ontario}
+}
+@BOOK{Coh11,
+   author       = {A. Cohen},
+   year         = 1911,
+   title        = {An Introduction to the Lie Theory of One-parameter Groups},
+   publisher    = {D. C. Heath and Co.}
+}
+@ARTICLE{Fus03,
+   author       =  "W. I. Fushchych and R. O. Popovych",
+   journal      = "Sci. Works",
+   volume       = "5", 
+   pages        = "180",
+   year         = "2003",
+}
+@ARTICLE{Tay37,
+   author       = "G. I. Taylor and A. E. Green",
+   journal      = "Proc. Roy. Soc. London A",
+   volume       = "158", 
+   pages        = "499",
+   year         = "1937",
+}
+@BOOK{Kie03,
+   author       = {R. Kiehn},
+   year         = 2003,
+   title        = {Intrinsic Hydrodynamics with Applications to Space-time Fluids},
+   publisher    = {www.cartan.pair.com}
+}
+@MISC{Kie01, 
+
+   author       = "R. Kiehn and P. Baldwin",
+   title        = "Cartan's Topological Structure", 
+   howpublished = "e-print arXiv:math-ph/0101033", 
+   month        = "", 
+   year         = "2001", 
+   note         = "",
+}
