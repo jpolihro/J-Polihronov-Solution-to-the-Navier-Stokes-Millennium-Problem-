@@ -1,0 +1,36 @@
+Peer Review History
+
+The proposed solution was published in two stages:
+I.	The main model was published in AIP Advances in August 2022
+II.	The complete solution, with application of the model to space-periodic and Schwartz-class initial data was published in final form on May 2, 2025 on arXiv:2504.21000v2 (the later versions are repackaging versions, the model is unchanged)
+
+Peer Review of the Main Model (AIP Advances, Aug 2022)
+The main model is based on the invariant theory of Bouton-Lie. All self-similar solutions of the incompressible NSE are found to be rational functions with isobaric polynomials in the numerator and denominator. The NSE criticality is re-examined.
+This work was peer-reviewed as follows:
+a.	Submitted to arXiv on Dec 18, 2018 – after a moderation process it was accepted on Feb 6, 2019 and was changed and repackaged by author until Jun 2, 2022, version 7 being the final version on arXiv, section math.GM
+b.	Submitted to JAMS Feb 7, 2022 – PDE expert opinions were collected and of Mar 4, 2022 it was rejected for editorial reasons; It was assured that this was not due to a mistake or an error in the method
+c.	Submitted to Communications on Pure and Applied Mathematics on Mar 7, 2022, rejected on Apr 12, 2022 since it did not come from the Courant Institute
+d.	Submitted to Physics of Fluids on Jun 3, 2022 – rejected for editorial reasons
+e.	Submitted to AIP Advances on Jul 7, 2022. It underwent interactive peer-review and was published on Aug 23, 2022
+The questions and criticisms it received while in peer-review, are attached as a separate document to this solution package.
+
+Peer Review of the Complete Solution (arXiv:2504.21000)
+The main model published in AIP Advances (2022) was now applied to the cases of space-periodic and Schwartz-class smooth initial data and a proof of NSE regularity was reached. The Complete Solution was peer-reviewed as follows:
+a.	Submitted to arXiv on Mar 30, 2025 – after a one-month long moderation process it was accepted on Apr 30, 2025 and allowed in section math.GM
+b.	Submitted to JAMS May 2, 2025 – feedback from PDE experts was mentioned leading to its rejection on May 9, 2025 for editorial reasons
+c.	Submitted to Annals of Mathematics on May 12, 2025 – experts were consulted however no details were shared. The article was rejected on June 16, 2025 by editor
+d.	Over 90 editors of mathematical journals were considered and contacted in seeking publication. Many declines were received quoting scope, selectivity, or readership reasons.
+e.	In addition, several non-expert Editors engaged in a QA discussion about the work. No mathematical error, contradiction, or counterexample was found. These journals were:
+-	Proceedings of the Royal Society A
+-	Nonlinear Analysis
+-	Journal of Evolution Equations
+-	Journal of Mathematical Fluid Mechanics
+f.	On Jun 23, 2025 a well-known NSE expert at the Journal of Differential Equations provided feedback on the work and suggested the addition of a section on Euler’s Equation regularity. The section was added to the manuscript. Other questions were raised as well. The article was then submitted to the Journal of Differential Equations on Jun 25, 2025 but received an immediate rejection by the Editor-in-Chief.
+g.	In the period June 28 – Aug 22, 2025 a well-known NSE expert at the Mathematische Annalen provided feedback, questions, counterexamples as well as the suggestion that the solution should be repackaged to include the results from the AIP Advances 2022 article and be written as one standalone article, due to its highly unusual method. This resulted in the last manuscript, attached to this solution package. There is no change in the model or the claims. This was submitted to the Mathematische Annalen on Sep 22, 2025 and was sent out to three referees. After the reviews came, the article was rejected by editor on Jan 4, 2026 without discussion, suggesting to seek publication elsewhere.
+h.	The work was also presented at a Mathematics Colloquium (Andrews University), where it was discussed without any mathematical error being identified.
+This record establishes that the work has undergone substantial expert scrutiny, was not rejected due to identified errors, and remains unrefuted within the peer-review system.
+
+•  The work is available at arXiv: arXiv:2504.21000
+•  Project page: https://polihronov-nse-millennium.pages.dev
+•  Permanent archive (Zenodo): DOI: 10.5281/zenodo.15297978
+

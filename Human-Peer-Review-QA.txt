@@ -1,0 +1,144 @@
+Peer Review History
+
+The proposed solution was published in two stages:
+I.	The main model was published in AIP Advances in August 2022
+II.	The complete solution, with application of the model to space-periodic and Schwartz-class initial data was published in final form on May 2, 2025 on arXiv:2504.21000v2 (the later versions are repackaging versions, the model is unchanged)
+The following are Q&A from expert human referees. An extensive list of 60 Q&A which came from AI is also on this site.
+Human Expert Peer Review Q&A of the Main Model (AIP Advances, 2022)
+(1)	Questions, statements and critique from the editorial staff of JAMS, Feb – Apr, 2022:
+-	Q: Was the article declined due to incorrect or invalid claims?  
+A: no, the reason was the style of the article, which was dedicated to the history and work of Charles Bouton
+Result: The article was rewritten so that another, historical article can be published separately
+-	Q: Contact NSE experts who can evaluate the work
+Result: See the Peer-Review document: expert opinion was sought 
+-	Q: the work has the potential of being interesting, although it does not offer sufficiently new results
+Result: The complete solution is no longer a partial result – it now includes detailed application of Bouton’s self-similar theory to the specific cases of space-periodic and Schwartz-class initial data, showing global regularity through uniqueness and existence theorems (Fujita-Kato)
+
+(2)	Questions, statements and critique from the peer review of AIP Advances, Jul - Aug, 2022:
+-	Q: This method treats the NSE PDEs with Bouton's method designed for linear ODEs
+A: The main method used in the article is Lie’s theory of continuous groups; it is a well-known tool for the study of both ODEs and PDEs. The Navier-Stokes equation has been already analyzed with this method, e.g. as shown in the quoted work of S. P. Lloyd, reference #6. The Lie invariants of the Navier-Stokes equation are well known in the literature.
+Bouton’s contribution is in showing how to apply Lie’s analysis to the scaling transformation of any invariant function. His analysis concerns the invariant functions only, and their behavior under a finite transformation. The analysis is not affected by the type of differential equation and can be applied to any DE which exhibits scaling invariance. This generality of Bouton’s invariant theory affirms it as a robust method for the study of differential equations.
+-	Q: the NSE’s isobaric solutions may be assumed, but not proven, to exist
+A: The case \alpha_t = 2\alpha_x solutions are known to exist; these are Leray’s self-similar solutions. As stated on page 11, section IV, paragraph 2, Leray’s self-similar solutions are known in the literature and are accepted as solutions of the NSE based on their scaling symmetry/invariance. Analogously, this will be true for arbitrary \alpha_t , alpha_x, where the self-similar solutions of page 6 exhibit scaling symmetry/invariance. Scale invariant solutions are native solutions to the NSE because they stem from its symmetry properties.
+As an example, the initial solution/boundary condition for the Taylor-Green vortex, (eq.(12) in ref.8) is a scale invariant solution for any \alpha_t, \alpha_x; and so is the solution, eq. (21)
+-	Q: the main solutions of Bouton are derived with Maple, a symbolic package
+A: Maple is a well-established symbolic algebra package; its solutions are correct, and this is seen in their scale-invariant form. However, the solutions, although being part of the results of this work, are not the main result, but rather a secondary result which justified the use of Maple. The main results of the work are:
+	-That Bouton’s method can be applied to any DE exhibiting scaling invariance
+	-That Bouton’s method adds new PDEs for finding the symmetry solutions
+	-That the relative scale-invariant solutions, as defined by Bouton are isobaric polynomials and thus infinitely differentiable
+	-And the most important result, that when viscosity is kept fixed at all scales, the NSE always has non self-similar solutions, that are infinitely differentiable, nonzero at the initial moment and decreasing far from the origin, as well as not diverging along the axes and at the origin.
+	-Maple was not needed to show any of the above findings, because Bouton’s theory predicts the polynomial form out of which the solutions are built.
+-	Q: all critiques on clarity 
+A: met by improving the manuscript
+
+Human Expert Peer Review Q&A of the Complete Solution (arXiv, May 2025)
+(1)	Questions and critiques by editors of mathematical journals, Jun – Aug 2025
+-	Q (Proceedings of the Royal Society A): one would expect to see mention of the progress made in the field of NSE as well as discuss the issues at hand
+A:  These are the key points on which this model is built. It relies on important results such as Leray’s self-similar solutions and theorems of existence and uniqueness (Fujita-Kato). It may not make an extended overview of functional-analytical results, because this is not the approach essential for this model. Once the self-similar solutions have a clear mathematical form – ratios of isobaric polynomials, it is no longer needed to work with arbitrary form of the solutions and conduct functional analyses. Also, the work discusses the most pressing issues at hand, and addresses them as posed by C. Fefferman in the official statement of the Clay’s NSE Problem.
+-	Q (Proceedings of the Royal Society A): one would expect to also see energy estimates and inequalities, Sobolev spaces, supercriticality and fixed-point methods
+A: This question was raised by AI multiple times and has been answered at length (see the attached Polihronov_QA file). Criticality was treated in detail in the AIP Advances article; estimates and a priori bounds are also applied, however coming from a group theoretical point of view and not using the same techniques, because this is not the approach essential for this model
+-	Q (Journal of Evolution Equations): Eq. (1.1) shows that the viscosity is scaling which is not of interest
+A:  The mentioned equation represents the general scaling transformation; however the article discusses only the standard case of Newtonian fluids where  = const. 
+-	Q (Journal of Evolution Equations): recent developments in the field are not addressed or discussed
+A:  This objection was addressed above – due to the specific nature of the proposed model (invariant theory), recent functional analytical developments are not aligned with the approach used. Bouton’s method provides the form of the solutions – a key advantage, lacking elsewhere which imposes the use of functional analysis
+
+(2)	Questions and suggestions by an NSE expert at the Journal of Differential Equations, Jun 23-26, 2025
+-	Q: It would be beneficial to add a section treating the regularity of Euler’s equation with Bouton’s method – it will be very similar and will further validate the proof
+Result: The section was included in the last, standalone version of the complete solution. Note that the solution is not changed, but one more appendix was added.
+-	Q: Evaluate your work vs. the work of J.-Y. Chemin, I. Gallagher, and M. Paicu, Annals of Mathematics 173 (2011), 983–1012
+A: Bouton-Polihronov, uses algebraic symmetries to claim a complete, general solution to the Millennium Problem: both space-periodic and Schwartz smooth initial data can result in a smooth solution for all t when embedded in a specific self-similar Bouton solution.
+Paicu et al uses functional analysis to provide a rigorously peer-reviewed proof for a specific, limited class of large, analytic data. The data consists of large, "ill-prepared" flows that vary slowly in one direction. The crucial condition is that the flow must be analytic—in that slow-varying direction. This property is essential for their proof to control the solution's stability over time. It is a verified partial result, unrelated directly to Clay’s millennium problem. 
+Clay’s problem requires proof for either *any space-periodic u_0, or *any Shcwartz u_0. (Bouton-Polihronov addresses this in detail)
+Paicu et al is reminiscent of my work published in AIP Advances (2022) – it proves regularity of a class of self-similar solutions, unrelated directly to Clay’s millennium problem.
+
+(3)	Communications with a NSE expert at the Mathematische Annalen, Jun 26 – Aug 20, 2025. The article is interesting and the claim ground-breaking, but please address the following:
+-	Q: The logic of the model is hard to follow because the manuscript is too brief; when submitting the article please write it as a standalone work, since the model is not known in the NSE community
+Result: The complete solution was repackaged as a standalone article (included on this web site). Note, that the full article is only 35 pages long. It now includes all important results and definitions published earlier in AIP Advances, 2022.
+-	Q: Do you claim that all NSE solutions are self-similar
+A: The model does not claim that all solutions are self-similar. It claims that any smooth solution can be rigorously embedded into a self-similar family. One starts with any smooth, divergence-free initial datum, u0. Then, Lemma 1.2 demonstrates that this arbitrary u0 can always be represented as the k=1 member of a one-parameter self-similar family (k is that parameter). By invoking classical existence and uniqueness theorems (Kato-Fujita), we know a unique, smooth solution evolves from u0. By this uniqueness, the true solution must be identical to the k=1 self-similar member that it was embedded in. Therefore, the solution for arbitrary data inherits the global regularity properties of the self-similar family.
+We embed the solution into a self-similar one, because the self-similar solution is well-behaved.
+-	Q: What is your definition of “self-similar”
+A: You are correct that u(kx, ky, kz, k^2t) = k u(x,y,z,t) is the standard definition for self-similarity in what my paper calls "standard flow". My work, however, starts with the most general scaling transformation admitted by the NSE, where the scaling exponents for space (alpha_x) and time (alpha_t) are arbitrary. A solution is self-similar (Bouton's self-similar solution) if it has the functional form derived from this general scaling.
+-	Q: Explain the form of Bouton’s solutions and how do you derive them; also explain the constants L and T
+A: The structure of the proof does not require an explicit construction of F for a given u0. The argument is one of guaranteed existence, not formulaic construction. The first step of the proof relies on the fact, which guarantees that for any u0, an embedding into a self-similar family (with some profile F) exists. We then use the classical existence/uniqueness theorems to state that a unique solution evolving from u0 exists. Because that unique solution must be the one identified by the embedding, we have proven its existence and regularity without needing to solve for F explicitly. This is explained further in the Q&A document (Polihronov_QA) included with my work.
+L_i and T are not variables, but are parameters that rescale like space and time, respectively. They are not fixed constants but part of the self-similar structure. F is an arbitrary function with zero isobaric weight. This means the entire scaling behavior (the "isobaric weight") is carried by the pre-factor (F does not rescale).
+-	Q: What is “isobaric polynomial”
+A: Isobaric Polynomials are polynomials where every term has the same "isobaric weight" under the general scaling transformation (example: x^2y^3+xy^4+x^4y+x^5+y^5). These are the only functions that arise from the scaling symmetries of the NSE. They are crucial because they are inherently smooth.
+-	Q: We know that if we start with self-similar initial data, a corresponding self-similar NSE solution exists, however only if the initial data is small
+A: I completely agree with your point about the historical importance of the "smallness" condition for initial data. A central claim of my paper is that Bouton's framework overcomes the small-data limitation.
+The mechanism for doing so is the combination of the embedding principle and the condition on the isobaric weight, beta_x/beta_t > 3/2. This condition provides the necessary uniform bounds on vorticity for any smooth embedded data, not just small data, which in turn allows the use of the Beale-Kato-Majda criterion to prove global regularity.
+-	Q: Bouton’s solutions remain unclear still. Please explain if they are analytical in the spacetime variables and what is their domain. What properties do they have
+A: The function F in Bouton’s solution refers to a self-similar profile, a solution of the Navier–Stokes equations. It follows from the invariant theory of Bouton-Lie applied to the scaling transformation of the NSE. Complete, step-by-step derivation is found in "Charles Bouton and the Navier–Stokes Global Regularity Conjecture" (https://arxiv.org/abs/1902.01985). This preprint was peer reviewed and published by AIP Advances, https://doi.org/10.1063/5.0101855, title "Incompressible flows: Relative scale invariance and isobaric polynomial fields". It presents a very detailed, 10-pages treatment on the self-similar solutions of the NSE in a variety of cases. The AIP article provides the theoretical and symmetry foundation for the present work. There, the role of self-similarity in classifying admissible solutions is examined rigorously and in full detail. 
+The current paper is the second in the series and builds directly on that framework. It focuses on embedding general smooth initial data into the self-similar class and demonstrating global existence and regularity via that embedding, supported by a priori estimates. To keep the current article focused and readable, I refer readers to the previous paper for the full derivation of the structure of F. That said, in light of your helpful feedback, I will make sure the final version includes more explicit reference to the prior work and greater detail in this article as well, so that the argument is fully self-contained and clear to readers unfamiliar with the first paper.
+Result: The complete solution was repackaged as a standalone article (included on this web site). It now includes all important results and definitions published earlier in AIP Advances, 2022.
+-	Q: u_t + uu_x = 0 is known as the Burger’s Equation. Why is it that your model, if applied to this equation, proves global in-time regularity
+A: The method used in my work cannot be applied there; the method strongly relies on the Beale-Kato-Majda criterion (BKM), which is not available for the Burger's equation.
+
+(4)	Critiques by human expert referees received in Jan 2026 when the Complete Model was submitted for publication to Mathematische Annalen in Sep 2025:
+-	Q: what is the meaning of the parameters Li and T
+A: The manuscript explicitly states that L_1,L_2,L_3 and T are not constants but rescaling parameters that scale in the same way as x,y,z and t, respectively. Stated in:  Lemma 5.1 , Theorem 5.3. and a number of other locations.
+Other similar referee critiques that require a quick manuscript check are omitted.
+-	Q: How is a solution embedded into a self-similar family
+A: The reader is referred to Lemma 5.1, Corollary 5.3, Theorem 5.3 and Appendix D, which are sections dedicated to the embedding technique
+-	Q: Many times a solution $u$ is written in the form $u=U F(x_1/L_1, x_2/L_2, x_3/L_3, t/T)$. But applying the Laplacian, we get a sum of second order derivatives multiplied by constants $1/L_j^2$, $j=1,2,3$, hence a modified Navier-Stokes sytem as considered in oceanography. Now a priori estimates will depend on the $L_j$.
+A: The referee’s observation is valid if one interprets the representation
+$ u = U,F!\left(\tfrac{x_1}{L_1}, \tfrac{x_2}{L_2}, \tfrac{x_3}{L_3}, \tfrac{t}{T}\right)$
+as a change of variables with fixed parameters (L_j, T). In that case, applying the Laplacian produces coefficients (1/L_j^2), leading to a modified (anisotropic) Navier--Stokes system whose coefficients, and thus estimates, dependent on (L_j). However, this is not the framework used in the manuscript.
+Instead, (L_j) and (T) are scaling parameters, not fixed physical constants. They transform under the same scaling group as the coordinates:
+$L_j' = k^{\alpha_x} L_j, \qquad T' = k^{\alpha_t} T.$
+Accordingly, the expression above does not define a new PDE with fixed coefficients but rather describes a group-parametrized family of solutions of the original NSE.
+Under this interpretation:
+	- The factors (1/L_j^2) arising from differentiation are not fixed coefficients, but scale consistently with the group action.
+        - The NSE retain their form under the transformation.
+        - Any apparent dependence on (L_j) disappears once the scaling symmetry is considered.
+Equivalently, one may fix a representative of the scaling orbit (for instance (L_j = 1), (T = 1)) without loss of generality, since all other cases are obtained by the scaling transformation. Thus, no additional parameters enter the equations, and no modified system arises.
+Therefore, the dependence on (L_j) occurs only if the scaling parameters are artificially held fixed. In the symmetry-based formulation adopted here, they are part of the scaling structure itself, and do not introduce new coefficients or affect the underlying NSE system.
+-	Q: The author uses the condition $u(T) \in L^3$ or $u_0\in H^{1/2} ~ D(A^{1/4})$ to extend a given strong solution beyond some time T. However, T is not described by the L^3-norm of the initial value $u_0$ directly. Does the extension procedure in this case yield an extension to an interval sufficiently large so that in a finite number of steps T=\infty$ will be reached. In other words, why does only one extension step solve the problem of global regularity? For a more precise control of $T$ the optimal condition of $u_0$ in the Besov space $B^{-2/s}_{q,s}$ where $2/s + 3/q = 1$ will be helpful, see
+Farwig, Sohr, Varnhorn: On optimal initial value conditions for local strong solutions of the Navier-Stokes equations.
+Ann. Univ. Ferrara Sez. VII Sci. Mat. 55 (2009), 89–110.
+Note that $D(A^{1/4}) \subset L^3 \subset B^{-2/s}_{q,s}$, $(s\geq q)$.
+-	A: The referee's objection is insightful. It concerns two key aspects:
+\begin{enumerate}
+    \item The extension of strong solutions beyond a blow-up time $T$ via the condition $u(T) \in L^3$ or $u_0 \in H^{1/2} = D(A^{1/4})$, which relies on classical energy methods and iterative continuation.
+    \item Why, in this classical framework, requires \emph{multiple} steps to reach global regularity ($T \to \infty$), rather a single extension step to prove $T=\infty$ directly.
+\end{enumerate}
+The author’s approach via Bouton's self-similarity and the embedding Lemma —constructs native solutions as global, smooth, isobaric rational fields directly from the symmetry. This bypasses the iterative extension mechanism.
+Indeed, it proves global regularity in one step:  
+\begin{itemize}
+    \item The solution $U(x,t,k)$ is self-similar for all $k>0$ and inherits smoothness from $\mathbf{F}$ — which is an IRF (integral rational function).
+    \item By the scaling invariance, the solution $u^* = U(x,t,k=1)$ coincides with the physical evolution of initial data $u_0$, and is smooth for all $t>0$.
+    \item The blowup mechanism — which classically requires $u(T) \in L^3$ to extend past $T$ — is eliminated by the scaling control: $\vec{u}$ is bounded in all $L^p$ norms due the fixed functional form $\mathbf{F}(\cdot)$ and the isobaric weight , which prevents uncontrolled rescaling.
+    \item Hence, no need to iterating from $T_0 \to T_1 \to T_2 \to \cdots$; global regularity ay $T=\infty$ holds in one extension step, since the solution is already globally smooth by its symmetry structure.
+\end{itemize}
+-	Additional Comment: Moreover, the optimal condition on initial data via Besov space $B^{-2/s}_{q,s}$ with $2/s + 3/q = 1$ (as suggested from Farwig--Sohr) finds precisely:  
+\[
+D(A^{1/4}) \subset H^{1/2} \subset L^3 \subset B^{-2/s}_{q,s}, \quad s\ge q
+\]
+by classical Sobolev embedding theorems. The author’s self-similar framework exceeds this optimal condition:  
+since $\mathbf{F}$ is a smooth IRF — which in $L^3$ is not just bound, but compact and analytic — thus even lies in all Gevrey classes. Thus, the initial data $u_0 = U(\cdot,\cdot,k=1)$ automatically satisfies $u_0\in B^{-2/s}_{q,s}$ for all admissible $(s,q)$, with optimal scaling $2/s + 3/q =1$.
+Thus, the author’s approach:  
+\[
+\boxed{\text{One step of self-similarity} \implies \text{Global regularity}}
+\]
+is not merely a “one-step” extension; it is an structural rigidity — the solution lives in a symmetry-invariant manifold, so blowup cannot occur.
+This indeed surpasses and refines the classical iterative extension technique:  
+while the referee's condition $u_0\in D(A^{1/4})$ is necessary for the local well-posedness of strong solutions, the author’s self-similarity with smooth IRF $\mathbf{F}$ is sufficient to obtain global regularity.
+Moreover, the condition $\frac{\beta_x}{\beta_t} > \tfrac{3}{2}$ in Lemma~\ref{L1} — from scaling balance — is the same as $q=3$ and $s=\infty$ in Besov space (since $2/\infty + 3/3 = 1$). Thus:  
+the self-similarity mechanism naturally selects the critical scaling threshold.
+\end{remark}
+To put it shortly:  
+The manuscript already contains all elements required to establish global-in-time continuation.  
+In particular, Lemma~\ref{L1} shows that for the smooth self-similar solutions (\ref{gen-selfsimilarsol2}) under standard scaling ($\alpha_x=1$, $\alpha_t=2$), the velocity, energy, and vorticity norms remain uniformly bounded for all time. The Beale--Kato--Majda criterion is then explicitly applied: since vorticity consists of spatial derivatives of the velocity, the uniform bound on $\nabla u$ directly implies that finite-time blowup cannot occur.  
+Hence, the continuation to $t=\infty$ follows in a single step: no iterative procedure or additional Besov-space estimates are required. Besov-space conditions, as suggested, would provide an alternative quantitative framework, but they are not necessary for establishing global regularity in the present approach, where the uniform bounds arise naturally from the smoothness of the self-similar integral-rational functions and the scaling analysis.
+-	Q: There are many recent articles on non-/uniqueness and non-/regularity of weak solutions such as
+        - Albritton, Brué, Colombo: Non-uniqueness of Leray solutions of the forced Navier-Stokes equations. Annals of Mathematics 196 (2022), 415–455
+        - Albritton, Brué, Colombo: Gluing Non-unique Navier–Stokes solutions. Annals of PDE (2023) 9:17
+        - Buckmaster, Vicol: Nonuniqueness of weak solutions to the Navier-Stokes equation. Annals of Math. 189, (2019), 101–144.
+These articles together with many related results could be interesting for the author and should be compared with results of the author.
+-	A: We thank the referee for pointing out these important works on weak solutions. Our article focuses specifically on strong, smooth solutions of the incompressible Navier–Stokes equations under standard conditions, whereas the cited works address non-uniqueness and irregularity phenomena in the context of weak or Leray solutions. While these results are certainly relevant to the broader study of Navier–Stokes theory, they do not directly pertain to the existence, smoothness, or self-similar structure of the strong solutions considered here.
+
+
+
+
+
+
